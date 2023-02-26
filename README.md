@@ -8,8 +8,6 @@ Daha sonra, gelen ad, email, konu ve mesaj metinleri escape ediliyor. Burada ama
 
 Son olarak, anti-CSRF token kontrolü yapılıyor. Bu token, formların güvenliğini sağlamak için kullanılan bir yöntemdir. Token, formu oluşturan sayfaya özel olarak oluşturulur ve sunucu tarafından saklanır. Form gönderildiğinde, token da gönderilir ve sunucu tarafından doğrulanır. Bu şekilde, formun sadece formu oluşturan sayfa tarafından gönderilmesi sağlanır ve CSRF saldırılarından korunulur. Eğer token doğrulanamazsa, geri dönüş değeri olarak bir JSON nesnesi döndürülür ve success değeri false, message değeri ise "Invalid anti-CSRF token." şeklinde ayarlanır.
 
-Bootstrap Kurumsal Web Site Tasarımı
-
 TR: Dilediğiniz gibi kullanıp, geliştirebilirsiniz.
 
 👋 Merhaba, ben @abdullaheroll...
